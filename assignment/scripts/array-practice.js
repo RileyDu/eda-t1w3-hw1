@@ -51,6 +51,8 @@ console.log("The last animal is", lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length
 //       property, rather than the exact (hardcoded) index number of the last item.
+let lastLastAnimal = animalArray[animalArray.length - 1];
+console.log("Making sure the last animal is still a", lastLastAnimal);
 
 // Adding & Removing Array Items
 console.log("--- 4. Adding and removing array items ---");
@@ -117,6 +119,7 @@ let gems = ["Topaz", "Citrine", "Diamond", "Emerald", "Iolite", "Tanzanite"];
 
 // 5.a (STRETCH) TODO: Replace the second gem with 'Tourmaline'.
 //      Remember to console.log the updated array.
+console.log(gems);
 gems[1] = "Tourmaline";
 console.log(gems);
 
